@@ -42,7 +42,7 @@ public class Library {
 
     public void click(WebElement element){
 
-        element.click();
+        centerElement(element).click();
 
     }
 
